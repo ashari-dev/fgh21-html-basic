@@ -3,30 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form Login</title>
+    <title>Pendaftaran</title>
     <link rel="stylesheet" href="./asset/pendaftaran.css" />
+    <style>
+      h1 {
+        text-align: center;
+        color: rgb(75, 67, 67);
+      }
+    </style>
   </head>
   <body>
     <div class="container">
       <div class="form-box">
-        <h2>DAFTAR</h2>
+        <h1>Pendaftaran</h1>
         <form action="#">
-          <div class="input-box">
-            <label for="Nama">Nama</label>
-            <input type="Nama" id="Nama" name="Nama" placeholder="Nama" />
+          <div class="input">
+            <input type="text" placeholder="Nama" />
           </div>
-          <div class="input-box">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Email" />
+          <div class="input">
+            <input type="email" placeholder="Email" />
           </div>
-          <div class="input-box">
-            <label for="password">Password</label>
-            <input
-              type="password"
-              id="password"
-              name="password"
-              placeholder="Password"
-            />
+          <div class="input">
+            <input type="password" placeholder="password" />
           </div>
           <button class="btn">DAFTAR</button>
         </form>

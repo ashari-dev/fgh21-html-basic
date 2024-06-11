@@ -16,38 +16,27 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-h2 {
-  text-align: center;
+.input {
   margin-bottom: 20px;
 }
-
-.input-box {
-  margin-bottom: 15px;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.btn {
-  background-color: #f03d47;
-  color: #fff;
-  padding: 10px 20px;
+.input input {
+  height: 35px;
+  font-size: medium;
+  border-radius: 100px;
+  background: rgba(0, 0, 0, 0.5);
+  text-indent: 16px;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  width: auto;
+}
+.btn {
+  margin-top: -10px;
+  background: rgb(192, 188, 188);
+  color: red;
+  width: 200px;
+  height: 35px;
+  border-radius: 100px;
+  border: none;
 }
 
 .btn:hover {
-  background-color: #d72f3a;
+  background-color: rgb(247, 132, 132);
 }
